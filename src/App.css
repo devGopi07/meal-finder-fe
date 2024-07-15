@@ -1,0 +1,63 @@
+body {
+  background-image: url("./images/stefan-vladimirov-Q_Moi2xjieU-unsplash.jpg");   
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover; 
+  }
+
+ 
+
+.heading {
+  color: white;
+  text-align: center; 
+  margin-top: 100px;
+}
+
+.inp-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap:wrap;
+}
+
+.searchdiv{
+  display:flex ;   
+  flex-wrap: wrap;
+}
+
+.searchbox {
+  width: 500px;
+  border-radius: 10px;
+  border: white;
+}
+
+@media screen and (max-width: 575px) {
+  .searchbox {
+    width: 250px;
+    border-radius: 10px;
+    border: white;
+  }
+}
+
+.result-container {
+  padding: 20px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7rem;
+}
+
+.result-single-card {
+  padding: 10px; 
+  gap: 10px;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
